@@ -1,12 +1,12 @@
-import {mutation, query} from "./_generated/server"
+import { mutation, query } from "./_generated/server"
 import { ConvexError, v } from "convex/values";
 
 export const getTodos = query({
     handler: async (ctx) => {
         const todos = await ctx.db.query("todos").order("desc").collect()
         return todos;
-    }
-})
+    },
+});
 
 export const addTodo = mutation({
     args: {text:v.string()},
@@ -17,8 +17,8 @@ export const addTodo = mutation({
         });
 
         return todoId;
-    }
-})
+    },
+});
 
 export const toggleTodo = mutation({
     args: {id:v.id("todos")},
@@ -29,15 +29,15 @@ export const toggleTodo = mutation({
         await ctx.db.patch(args.id,{
             isCompleted: !todo.isCompleted
         })
-    }
-})
+    },
+});
 
 export const deleteTodo = mutation({
     args: {id:v.id("todos")},
     handler: async(ctx, args) => {
         await ctx.db.delete(args.id);
     },
-})
+});
 
 export const updateTodo = mutation({
     args: {
@@ -49,7 +49,7 @@ export const updateTodo = mutation({
             text: args.text,
         });
     },
-})
+});
 
 export const clearAllTodos = mutation({
     handler: async(ctx) => {
@@ -62,4 +62,4 @@ export const clearAllTodos = mutation({
 
         return { deletedCount: todos.length };
     },
-})
+});
