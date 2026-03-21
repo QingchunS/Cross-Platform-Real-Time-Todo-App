@@ -40,9 +40,13 @@ npx expo start
 ```
 
 ## Screenshots
-<img width="1640" height="2360" alt="IMG_0332" src="https://github.com/user-attachments/assets/17a6c8df-61f4-477e-99d5-478bc2a3654d" />
-<img width="1640" height="2360" alt="IMG_0333" src="https://github.com/user-attachments/assets/1bfe5680-0a65-4419-a803-91514a7e13c4" />
-<img width="1640" height="2360" alt="IMG_0334" src="https://github.com/user-attachments/assets/11b2184f-1ef9-4bcf-8849-9b385ce39326" />
-<img width="1640" height="2360" alt="IMG_0335" src="https://github.com/user-attachments/assets/40480829-0992-4b72-8cc0-fa304ca27027" />
-<img width="1640" height="2360" alt="IMG_0336" src="https://github.com/user-attachments/assets/eba114b4-5f1d-42c1-bc86-8fa897e3ac26" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/17a6c8df-61f4-477e-99d5-478bc2a3654d" width="250" />
+  <img src="https://github.com/user-attachments/assets/1bfe5680-0a65-4419-a803-91514a7e13c4" width="250" />
+  <img src="https://github.com/user-attachments/assets/11b2184f-1ef9-4bcf-8849-9b385ce39326" width="250" />
+</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/40480829-0992-4b72-8cc0-fa304ca27027" width="250" />
+  <img src="https://github.com/user-attachments/assets/eba114b4-5f1d-42c1-bc86-8fa897e3ac26" width="250" />
+</p>
